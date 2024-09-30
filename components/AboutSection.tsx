@@ -1,34 +1,31 @@
 import React from "react"
 import Image from "next/image"
 
-const skills = [
-  
-  { skill: "Html" },
-  { skill: "Css" },
-  { skill: "JavaScript" },
-  
-  { skill: "Php" },
-  { skill: "Sql" },
 
-
-  { skill: "React" },
-  { skill: "Nextjs" },
-  { skill: "Nuxtjs" },
-  
-
-  { skill: "Laravel" },
-  { skill: "Symfony" },
-
-  { skill: "Figma" },
-  { skill: "Wordpress" },
-
-  
-  
-
-  
-]
 
 const AboutSection = () => {
+
+  const skills = [
+  
+    { skill: "Html" },
+    { skill: "Css" },
+    { skill: "JavaScript" },
+    
+    { skill: "Php" },
+    { skill: "Sql" },
+  
+  
+    { skill: "React" },
+    { skill: "Nextjs" },
+    { skill: "Nuxtjs" },
+    
+  
+    { skill: "Laravel" },
+    { skill: "Symfony" },
+  
+    { skill: "Figma" },
+    { skill: "Wordpress" },
+  ]
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -43,26 +40,26 @@ const AboutSection = () => {
               Apprenez a me connaitre
             </h1>
             <p>
-              Bonjour, je m'appel elsi je suis {" "}
+              Bonjour, je m&apos;appel elsi je suis {" "}
               <span className="font-bold">{"determiné"}</span>,
               <span className="font-bold">{" rigoureux"}</span>, et
-              <span className="font-bold">{" à l'écoute"}</span> pour apprendre de nouvelles choses
+              <span className="font-bold">{" "}</span> à l&apos;écoute pour apprendre de nouvelles choses
             </p>
             <br />
             <p>
-            Etant gardien à Sainte-Maxime, j'avais beaucoup de temps libre et j'ai décidé de mettre à profit ce temps afin de me former en autodidacte.
+            Etant gardien à Sainte-Maxime, j&apos;avais beaucoup de temps libre et j&apos;ai décidé de mettre à profit ce temps afin de me former en autodidacte.
  
- commençant le développement web avec les bases, à savoir HTML et CSS, et je me suis vite rendu compte que c'est quelque chose qui me plaisait particulièrement.
+ commençant le développement web avec les bases, à savoir HTML et CSS, et je me suis vite rendu compte que c&apos;est quelque chose qui me plaisait particulièrement.
   
- J'ai continué à coder pendant un an, principalement en autodidacte, ce que je considère comme une année d'expérience malgré le fait que je codais de manière indépendante. Mi-2023, j'ai pris la décision de m'inscrire à Epitech afin de consolider mes connaissances et d'apprendre de nouveaux langages de programmation.
+ J&apos;ai continué à coder pendant un an, principalement en autodidacte, ce que je considère comme une année d&apos;expérience malgré le fait que je codais de manière indépendante. Mi-2023, j&apos;ai pris la décision de m&apos;inscrire à Epitech afin de consolider mes connaissances et d&apos;apprendre de nouveaux langages de programmation.
   
- Depuis que j'ai intégré Epitech, mon niveau en programmation s'est considérablement accru et je suis activement à la recherche d'une alternance afin de mettre en oeuvre mes compétences !
+ Depuis que j&apos;ai intégré Epitech, mon niveau en programmation s&apos;est considérablement accru et je suis activement à la recherche d&apos;une alternance afin de mettre en oeuvre mes compétences !
   
 
             </p>
             <br />
             <p>
-            J'ai un large éventail de passe-temps, notamment la lecture de genres comme le thriller ou la psychologie, ce qui me permet de me concentrer pleinement sur une tâche et de me déconnecter des écrans. Je pratique également les sports de combat, notamment des sports de percussion, depuis des années. Le combat en lui-même est une sorte de violence maîtrisée. Bien encadré, cela ne porte préjudice à personne. Au contraire, on acquiert une meilleure maîtrise de soi.
+            J&apos;ai un large éventail de passe-temps, notamment la lecture de genres comme le thriller ou la psychologie, ce qui me permet de me concentrer pleinement sur une tâche et de me déconnecter des écrans. Je pratique également les sports de combat, notamment des sports de percussion, depuis des années. Le combat en lui-même est une sorte de violence maîtrisée. Bien encadré, cela ne porte préjudice à personne. Au contraire, on acquiert une meilleure maîtrise de soi.
             </p>
             <br />
             <p>
